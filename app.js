@@ -21,7 +21,7 @@ function startCalculation(){
        // var dateStr = convertDateToString(date)
         var isPalindrome = checkPalindromeForAllDateVariations(date)
         if(isPalindrome){
-            showResult.innerText = "🎂🎂🎂🎂 Yes! Your birthday is a plaindrome!!!  🎂🎂🎂🎂"
+            showResult.innerText = "🎂🎂🎂🎂 Yes! Your birthday is a palindrome!!!  🎂🎂🎂🎂"
         }
         else{
             const [daysForNextPalindromeDate, nextDate] = getNextPalindromeDate(date);
@@ -38,6 +38,9 @@ function startCalculation(){
             }
           
         }
+    }
+    else{
+      showResult.innerText = "Please enter a valid date!!!"
     }
 }
 

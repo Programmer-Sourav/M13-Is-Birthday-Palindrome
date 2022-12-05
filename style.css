@@ -48,8 +48,9 @@ h1{
 #show-result{
     display: "block";
     color: #1b5e20;
-    background: black;
-    height: 40px;
+    background: yellowgreen;
+    height: 60px;
+    border-radius: 1rem;
     text-align: center;
     font-size: 32px;
     margin: 16px;
